@@ -81,7 +81,7 @@ echo "<script>alert('Do you really want to delete');</script>
                                         </tr>
                                     </tfoot> -->
                                     <tbody>
-                                        <?php $ret=mysqli_query($con,"select * from tblclients");
+                                        <?php $ret=mysqli_query($conn,"select * from tblclients");
                                     $cnt=1;
                                     while($row=mysqli_fetch_array($ret))
                                     {?>
@@ -99,7 +99,7 @@ echo "<script>alert('Do you really want to delete');</script>
                                                     href="client-profile.php?uid=<?php echo $row['id'];?>">
                                                     <i class="fas fa-edit"></i></a>
                                                 <a class="btn btn-sm btn-danger"
-                                                    href="view_clients.php?id=<?php echo $row['id'];?>">
+                                                    href="view-clients.php?id=<?php echo $row['id'];?>">
                                                     <i class="fa fa-trash" aria-hidden="true"></i></a>
                                             </td>
                                         </tr>

@@ -79,7 +79,7 @@ echo "<script>alert('Do you really want to delete');</script>
                                         </tr>
                                     </tfoot> -->
                                     <tbody>
-                                        <?php $ret=mysqli_query($con,"select * from subscribers");
+                                        <?php $ret=mysqli_query($conn,"select * from subscribers");
                                     $cnt=1;
                                     while($row=mysqli_fetch_array($ret))
                                     {?>

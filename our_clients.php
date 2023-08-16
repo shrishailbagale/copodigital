@@ -123,8 +123,10 @@ html {
 }
 
 .bg-1 {
-    background-color: #e7eb2a91;
+    background-color: #041e39;
+    color:#fff;
 }
+
 </style>
 
 <body>
@@ -142,7 +144,7 @@ html {
 
         <div class="row mx-auto p-2 bg-1">
             <div class="mx-auto ">
-                <a href="#" class=" font-weight-bold text-right">&mdash; Government Sector &mdash;</a>
+                <a href="#" class="text-light font-weight-bold text-right">&mdash; Government Sector &mdash;</a>
             </div>
         </div>
 
@@ -301,7 +303,7 @@ html {
 
         <div class="row mx-auto p-2 bg-1">
             <div class="mx-auto ">
-                <a href="#" class=" font-weight-bold text-right">&mdash; Organisers & Associations Agencies &mdash;</a>
+                <a href="#" class="text-light font-weight-bold text-right">&mdash; Organisers & Associations Agencies &mdash;</a>
             </div>
         </div>
 
@@ -437,7 +439,7 @@ html {
 
         <div class="row mx-auto p-2 bg-1">
             <div class="mx-auto ">
-                <a href="#" class=" font-weight-bold text-right">&mdash; Corporate Clients &mdash;</a>
+                <a href="#" class="text-light font-weight-bold text-right">&mdash; Corporate Clients &mdash;</a>
             </div>
         </div>
 

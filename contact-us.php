@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Contact us|Copodigital.com</title>
-    
+    <title>Contact Us</title>
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
@@ -28,10 +28,11 @@
 
 </head>
 <style>
-    body{
-        
-        background-color: #00000012;
-    }
+body {
+
+    background-color: #00000012;
+}
+
 section {
     padding: 60px 0;
     min-height: 100vh;
@@ -145,11 +146,14 @@ section {
     transition: all 0.4s ease-in-out 0s;
     border-color: #071c34
 }
-.single-input-field input ,textarea{
-    border:1px solid #0000004d;
+
+.single-input-field input,
+textarea {
+    border: 1px solid #0000004d;
 }
-.single-input-field textarea{
-    border:1px solid #0000004d;
+
+.single-input-field textarea {
+    border: 1px solid #0000004d;
 }
 
 .single-input-field h4 {
@@ -171,17 +175,38 @@ section {
 .contact-page-form form {
     padding: 20px 15px 0;
 }
+
+/* hr {
+    border: 1px solid #fda40b;
+}
+
+.card .fa {
+    color: #c60518;
+    padding:5px;
+}
+
+.card-title {
+    color: #003d5a;
+}
+.card {
+    padding-bottom:10px;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size:16px;
+    font-weight:500;
+} */
 </style>
 
 <body>
     <?php include('includes/header.php')?>
-   
+
 
     <section class="contact-page-sec">
-        
+
         <div class="container">
             <h1 class="display-5">Contact Us</h1>
-          
+            <hr/>
             <div class="row">
                 <div class="col-md-6">
                     <div class="contact-page-form" method="post">
@@ -223,7 +248,7 @@ section {
                 <div class="col-md-6">
                     <div class="contact-page-map">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.3715795013613!2d73.91921717499517!3d18.519983474815035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c134fd62ed7b%3A0x52b7e0c3374276c0!2sMesse%20Global%20Pune%20Laxmi%20Lawns!5e0!3m2!1sen!2sin!4v1687897477576!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.3378944619167!2d72.82980257495613!3d19.136681100065186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b62314cfffff%3A0x3a6a6b0fe5631307!2sPremier%20Interiors!5e0!3m2!1sen!2sin!4v1690955151369!5m2!1sen!2sin"
                             width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
@@ -239,7 +264,7 @@ section {
                             <div class="contact-info-text">
                                 <h2>address</h2>
                                 <span>302 Kuber complex, new link road,
-                                     Andheri west</span>
+                                    Andheri west</span>
                                 <span>Mumbai-400053</span>
                             </div>
                         </div>
@@ -276,8 +301,75 @@ section {
             </div>
         </div>
     </section>
+<!-- 
+    <section>
+        <div class="container">
+            <h1 class="display-5">Country Contacts</h1>
+            <hr />
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">India</h2>
+                            <hr />
+                            <div>
+                                <p><i class="fa fa-globe"></i> sunita@exhicongroup.com</p>
+                                <p><i class="fa fa-map-marker-alt"></i> 103, Crystal Paradise, D S Road, Andheri (W),
+                                    Mumbai -400053, India</p>
+                                <p><i class="fa fa-phone fa-rotate-90"></i> 1800 258 8103</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Thailand</h2>
+                            <hr />
+                            <div>
+                                <p><i class="fa fa-globe"></i> thailand@exhicongroup.com</p>
+                                <p><i class="fa fa-map-marker-alt"></i> 162/51-52, Phangmuang Saikor Road,Patong,
+                                    Phuket-83150, Thailand</p>
+                                <p><i class="fa fa-phone fa-rotate-90"></i> +66 953369335</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">HongKong</h2>
+                            <hr />
+                            <div>
+                                <p><i class="fa fa-globe"></i> syed@wea-agency.com</p>
+                                <p><i class="fa fa-map-marker-alt"></i> 1411, Cosco Towers, 183, Queens road, Central,
+                                    Sheung Wan, Hong Kong</p>
+                                <p><i class="fa fa-phone fa-rotate-90"></i> +66 953369335</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">UAE</h2>
+                            <hr />
+                            <div>
+                                <p><i class="fa fa-globe"></i> middleeast@exhicongroup.com</p>
+                                <p><i class="fa fa-map-marker-alt"></i> 1601, Al-Moosa Tower 1, Sheikh Zayed Rd., Dubai.
+                                </p>
+                                <p><i class="fa fa-phone fa-rotate-90"></i> +9715 85985094</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
     <?php include('includes/footer.php')?>
     <?php include('includes/script.php')?>
+    <?php include('includes/whatsapp-wrapper.php') ?>
 
 </body>
 

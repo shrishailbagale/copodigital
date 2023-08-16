@@ -48,7 +48,7 @@ if($msg)
 
                     <?php 
 $userid=$_GET['uid'];
-$query=mysqli_query($con,"select * from tblclients where id='$userid'");
+$query=mysqli_query($conn,"select * from tblclients where id='$userid'");
 while($result=mysqli_fetch_array($query))
 {?>
                     <h1 class="mt-4"><?php echo $result['company_name'];?>'s Profile</h1>

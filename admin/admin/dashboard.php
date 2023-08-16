@@ -35,7 +35,7 @@ if (strlen($_SESSION['adminid']==0)) {
                     </ol>
                     <div class="row">
                         <?php
-                            $query=mysqli_query($con,"select id from tblclients");
+                            $query=mysqli_query($conn,"select id from tblclients");
                             $totalusers=mysqli_num_rows($query);
                             ?>
 
@@ -47,14 +47,14 @@ if (strlen($_SESSION['adminid']==0)) {
 
                                 </div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
-                                    <a class="small text-white stretched-link" href="view_clients.php">View Details</a>
+                                    <a class="small text-white stretched-link" href="view-clients.php">View Details</a>
                                     <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                 </div>
                             </div>
                         </div>
 
                         <?php
-                            $query1=mysqli_query($con,"select id from contact where date(created_at)=CURRENT_DATE()-1");
+                            $query1=mysqli_query($conn,"select id from contact where date(created_at)=CURRENT_DATE()-1");
                             $yesterdayregusers=mysqli_num_rows($query1);
                             ?>
 
@@ -75,7 +75,7 @@ if (strlen($_SESSION['adminid']==0)) {
                         </div>
 
                         <?php
-                            $query2=mysqli_query($con,"select id from contact where date(created_at)>=now() - INTERVAL 7 day");
+                            $query2=mysqli_query($conn,"select id from contact where date(created_at)>=now() - INTERVAL 7 day");
                             $last7daysregusers=mysqli_num_rows($query2);
                             ?>
 

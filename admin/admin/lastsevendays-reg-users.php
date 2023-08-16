@@ -79,7 +79,7 @@ echo "<script>alert('Data deleted');</script>";
                                     </tr>
                                 </tfoot> -->
                                 <tbody>
-                                    <?php $ret=mysqli_query($con,"select * from contact where date(created_at)>=now() - INTERVAL 7 day");
+                                    <?php $ret=mysqli_query($conn,"select * from contact where date(created_at)>=now() - INTERVAL 7 day");
                               $cnt=1;
                               while($row=mysqli_fetch_array($ret))
                               {?>

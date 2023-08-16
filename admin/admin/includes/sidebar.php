@@ -7,7 +7,7 @@
                       <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                       Dashboard
                   </a>
-                  <a class="nav-link" href="upload_client.php">
+                  <a class="nav-link" href="add-client.php">
                       <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
                       Add Clients
                   </a>

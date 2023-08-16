@@ -31,7 +31,7 @@ if (strlen($_SESSION['adminid']==0)) {
 
                     <?php 
                         $userid=$_GET['uid'];
-                        $query=mysqli_query($con,"select * from subscribers where id='$userid'");
+                        $query=mysqli_query($conn,"select * from subscribers where id='$userid'");
                         while($result=mysqli_fetch_array($query))
                         {?>
                     <h2 class="mt-4"><?php echo $result['name'];?>'s Profile</h2>

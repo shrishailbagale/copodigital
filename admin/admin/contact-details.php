@@ -86,7 +86,7 @@ echo "<script>alert('Do you really want to delete');</script>
                                         </tr>
                                     </tfoot> -->
                                     <tbody>
-                                        <?php $ret=mysqli_query($con,"select * from contact");
+                                        <?php $ret=mysqli_query($conn,"select * from contact");
                                     $cnt=1;
                                     while($row=mysqli_fetch_array($ret))
                                     {?>

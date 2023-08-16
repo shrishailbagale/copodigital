@@ -113,7 +113,6 @@
 </style>
 
 <body>
-
     <?php include('includes/header.php')?>
     <section id="clients" class="section-bg">
 

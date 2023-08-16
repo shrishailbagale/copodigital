@@ -96,7 +96,7 @@ body {
             </div>
         </div>
 
-        <div class="container text-center">
+        <div class="container-fluid text-center m-2">
             <div class="card">
                 <h4 class="mb-5">If Exhicon is Planning to run a Public event, we need to go through a set og
                     procedures, and the most important of these include obtaining specific licences from the relevent

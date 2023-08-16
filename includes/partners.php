@@ -1,7 +1,7 @@
 <section class="section-partner" id="">
 <header class="section-header pt-5">
-            <h3 class="text-dark">Exhicon Groups of Companies</h3>
-            <?php include ('includes/divider_bar.php') ?>
+            <h3 class="text-dark">Exhicon Groups</h3>
+            <div class="border"></div>
             <!-- <p class="text-dark">An Exhicon Groups</p> -->
         </header>
     <div class="logo-slider" id="logo-slider">
@@ -99,7 +99,7 @@
 }
 
 .section-partner {
-    background-color: #eff0f2 !important;    
+    background-color: #fff !important;    
     height: 50vh;
 }
 

@@ -36,16 +36,16 @@
                         Services
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="social_marketing.php">Social Marketing</a>
+                        <a class="dropdown-item" href="social-markering.php">Social Marketing</a>
                         <a class="dropdown-item" href="permission-and-licensing.php">Permission and Licensing</a>
                         <a class="dropdown-item" href="#">Infrastructure Service for outdoor</a>
                         <a class="dropdown-item" href="#">Infrastructure Service for Indoor</a>
                         <a class="dropdown-item" href="#">Branding and Promotion Service</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="our_venue.php" style="padding: 12px;">Venue</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="our_partners.php" style="padding: 12px;">Partners</a>
                 </li>
@@ -53,7 +53,7 @@
                     <a class="nav-link" href="our_clients.php" style="padding: 12px;">Clientele</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://exhicongroup.com/contact-us/" style="padding: 12px;">Contact
+                    <a class="nav-link" href="contact-us.php" style="padding: 12px;">Contact
                         Us</a>
                 </li>
 

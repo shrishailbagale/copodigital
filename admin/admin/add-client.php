@@ -9,11 +9,7 @@ if (strlen($_SESSION['adminid']==0)) {
 
 <?php 
 // database Connection
-$conn = mysqli_connect('localhost', 'root', '', 'copodigital');
-// check for connection error
-if($conn->connect_error){
-  die("Error in DB connection: ".$conn->connect_errno." : ".$conn->connect_error);    
-}
+include_once('../includes/config.php');
 
 if(isset($_POST['submit'])){
     
@@ -40,7 +36,7 @@ if(isset($_POST['submit'])){
 		// Image db insert sql
 		$insert = "INSERT into tblclients(company_name,company_image,category,c_mobile,c_email,status) values('$name','$filename','$category','$mobile','$email',1)";
 		if(mysqli_query($conn, $insert)){
-		  echo "<script>alert('Data inserted successfully')</script> <script>document.location.href='upload_client.php';  
+		  echo "<script>alert('Data inserted successfully')</script> <script>document.location.href='add-client.php';  
           </script>";
 		}
 		else{

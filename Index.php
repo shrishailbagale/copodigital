@@ -129,21 +129,23 @@
 <body>
 
 
-    <?php include('includes/header.php'); ?>
+    <?php include('includes/header.php'); ?>    
 
     <?php include('includes/section1.php') ?>
-    <?php include('includes/partners.php') ?>
+    
+    <?php include('includes/partners.php') ?>    
+    
+    <?php include('includes/section2.php') ?>  
 
-    <?php include('includes/section2.php') ?>
-    <?php include('includes/slider.php') ?>
     <?php include('includes/service.php') ?>
-  
-    <?php include('includes/client.php') ?>
-
+   
+    <?php include('includes/service-card.php') ?>    
+    
+    <?php include('includes/client-new.php') ?>
 
     <?php include('includes/footer.php') ?>
-    <?php include('includes/popup.php') ?>
 
+    <?php include('includes/popup.php') ?>
 
     <?php include('includes/whatsapp-wrapper.php') ?>
 
